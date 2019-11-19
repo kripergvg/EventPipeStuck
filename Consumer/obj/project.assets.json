@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.47": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dia2Lib.dll": {},
+          "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll": {},
+          "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/netstandard2.0/OSExtensions.dll": {},
+          "lib/netstandard2.0/TraceReloggerLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dia2Lib.dll": {},
+          "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll": {},
+          "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/netstandard2.0/OSExtensions.dll": {},
+          "lib/netstandard2.0/TraceReloggerLib.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Diagnostics.Tracing.TraceEvent.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.47": {
+      "sha512": "lluUHHLKQuB7hpZxlzJz+xC5nVqZSzR7WoYxvyux6MRmI6Xj63MfiMs6S9nIQ0Ult+KzxQU9aTHRxQJdCpfXyw==",
+      "type": "package",
+      "path": "microsoft.diagnostics.tracing.traceevent/2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Diagnostics.Tracing.TraceEvent.props",
+        "lib/native/amd64/KernelTraceControl.dll",
+        "lib/native/amd64/msdia140.dll",
+        "lib/native/x86/KernelTraceControl.Win61.dll",
+        "lib/native/x86/KernelTraceControl.dll",
+        "lib/native/x86/msdia140.dll",
+        "lib/net45/Dia2Lib.dll",
+        "lib/net45/Microsoft.Diagnostics.FastSerialization.dll",
+        "lib/net45/Microsoft.Diagnostics.FastSerialization.xml",
+        "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+        "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.xml",
+        "lib/net45/OSExtensions.dll",
+        "lib/net45/TraceReloggerLib.dll",
+        "lib/netstandard1.6/Dia2Lib.dll",
+        "lib/netstandard1.6/Microsoft.Diagnostics.FastSerialization.dll",
+        "lib/netstandard1.6/Microsoft.Diagnostics.FastSerialization.xml",
+        "lib/netstandard1.6/Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+        "lib/netstandard1.6/Microsoft.Diagnostics.Tracing.TraceEvent.xml",
+        "lib/netstandard1.6/OSExtensions.dll",
+        "lib/netstandard1.6/TraceReloggerLib.dll",
+        "lib/netstandard2.0/Dia2Lib.dll",
+        "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll",
+        "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.xml",
+        "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+        "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.xml",
+        "lib/netstandard2.0/OSExtensions.dll",
+        "lib/netstandard2.0/TraceReloggerLib.dll",
+        "microsoft.diagnostics.tracing.traceevent.2.0.47.nupkg.sha512",
+        "microsoft.diagnostics.tracing.traceevent.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Microsoft.Diagnostics.Tracing.TraceEvent >= 2.0.47"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vladimir.ivanov\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vladimir.ivanov\\RiderProjects\\ConsoleApp1\\Consumer\\Consumer.csproj",
+      "projectName": "Consumer",
+      "projectPath": "C:\\Users\\vladimir.ivanov\\RiderProjects\\ConsoleApp1\\Consumer\\Consumer.csproj",
+      "packagesPath": "C:\\Users\\vladimir.ivanov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vladimir.ivanov\\RiderProjects\\ConsoleApp1\\Consumer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vladimir.ivanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.TraceEvent": {
+            "target": "Package",
+            "version": "[2.0.47, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Consumer/1.0.0": {
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.TraceEvent": "2.0.47",
+          "Microsoft.Diagnostics.Tools.RuntimeClient": "3.0.1.101"
+        },
+        "runtime": {
+          "Consumer.dll": {}
+        }
+      },
+      "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.47": {
+        "runtime": {
+          "lib/netstandard2.0/Dia2Lib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "assemblyVersion": "2.0.47.0",
+            "fileVersion": "2.0.47.0"
+          },
+          "lib/netstandard2.0/OSExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/TraceReloggerLib.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.Tools.RuntimeClient/3.0.1.101": {
+        "runtime": {
+          "Microsoft.Diagnostics.Tools.RuntimeClient.dll": {
+            "assemblyVersion": "3.0.1.101",
+            "fileVersion": "3.0.1.101"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lluUHHLKQuB7hpZxlzJz+xC5nVqZSzR7WoYxvyux6MRmI6Xj63MfiMs6S9nIQ0Ult+KzxQU9aTHRxQJdCpfXyw==",
+      "path": "microsoft.diagnostics.tracing.traceevent/2.0.47",
+      "hashPath": "microsoft.diagnostics.tracing.traceevent.2.0.47.nupkg.sha512"
+    },
+    "Microsoft.Diagnostics.Tools.RuntimeClient/3.0.1.101": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
