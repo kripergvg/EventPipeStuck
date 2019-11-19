@@ -32,6 +32,8 @@
       <e p="Consumer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Consumer.csproj" t="IncludeRecursive" />
+        <e p="Microsoft.Diagnostics.Tools.RuntimeClient.dll" t="Include" />
+        <e p="Microsoft.Diagnostics.Tools.RuntimeClient.xml" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">

@@ -6,13 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Microsoft.Diagnostics.Tools.RuntimeClient, Version=3.0.1.101, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-        <HintPath>..\..\..\Downloads\ClrEvents-master\ClrEvents-master\Events\Microsoft.Diagnostics.Tools.RuntimeClient.dll</HintPath>
-      </Reference>
+      <PackageReference Include="Microsoft.Diagnostics.Tracing.TraceEvent" Version="2.0.47" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Diagnostics.Tracing.TraceEvent" Version="2.0.47" />
+      <Reference Include="Microsoft.Diagnostics.Tools.RuntimeClient, Version=3.0.1.101, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+        <HintPath>..\..\..\Downloads\ClrEvents-master\ClrEvents-master\Events\Microsoft.Diagnostics.Tools.RuntimeClient.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
